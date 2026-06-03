@@ -1,10 +1,8 @@
 #include <stdio.h>
-biggest()
+void biggest()
 {
     int num1, num2;
-    // Ask user to enter the two numbers
     printf("Please Enter Two different values\n");
-    // Read two numbers from the user
     scanf("%d %d", &num1, &num2);
     if(num1 > num2)
     {
@@ -18,5 +16,4 @@ biggest()
     {
         printf("Both are Equal\n");
     }
-   // return 0;
 }
