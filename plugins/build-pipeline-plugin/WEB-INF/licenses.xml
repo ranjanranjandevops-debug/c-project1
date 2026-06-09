@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='build-pipeline-plugin' version='2.2.0'><l:dependency name='Build Pipeline Plugin' groupId='org.jenkins-ci.plugins' artifactId='build-pipeline-plugin' version='2.2.0' url='https://github.com/jenkinsci/build-pipeline-plugin'><l:description>This plugin provides build pipeline visualization for Jenkins. This allows a chain of jobs to be visualized in a new view.  Manual jobs in the pipeline can be triggered by a user with the appropriate permissions manually confirming.</l:description><l:license name='MIT License' url='https://opensource.org/license/mit/'/></l:dependency><l:dependency name='Apache Commons Lang' groupId='org.apache.commons' artifactId='commons-lang3' version='3.19.0' url='https://commons.apache.org/proper/commons-lang/'><l:description>Apache Commons Lang, a package of Java utility classes for the
+  classes that are in java.lang's hierarchy, or are considered to be so
+  standard as to justify existence in java.lang.
+
+  The code is tested using the latest revision of the JDK for supported
+  LTS releases: 8, 11, 17 and 21 currently.
+  See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml
+  
+  Please ensure your build environment is up-to-date and kindly report any build issues.</l:description><l:license name='Apache-2.0' url='https://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency></l:dependencies>
