@@ -1,0 +1,99 @@
+SSHLauncher{host='13.61.35.52', port=22, credentialsId='71beb62c-ae9e-49fb-a030-7cb06c07a81d', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[06/07/26 08:19:27] [SSH] Opening SSH connection to 13.61.35.52:22.
+[06/07/26 08:19:27] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
+[06/07/26 08:19:27] [SSH] Authentication successful.
+[06/07/26 08:19:27] [SSH] The remote user's environment is:
+BASH=/usr/bin/bash
+BASHOPTS=checkwinsize:cmdhist:complete_fullquote:extquote:force_fignore:globasciiranges:globskipdots:hostcomplete:interactive_comments:patsub_replacement:progcomp:promptvars:sourcepath
+BASHRCSOURCED=Y
+BASH_ALIASES=()
+BASH_ARGC=([0]="0")
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_EXECUTION_STRING=set
+BASH_LINENO=()
+BASH_LOADABLES_PATH=/usr/local/lib/bash:/usr/lib/bash:/opt/local/lib/bash:/usr/pkg/lib/bash:/opt/pkg/lib/bash:.
+BASH_REMATCH=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="5" [1]="2" [2]="26" [3]="1" [4]="release" [5]="x86_64-redhat-linux-gnu")
+BASH_VERSION='5.2.26(1)-release'
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+DIRSTACK=()
+EUID=1000
+GPG_TTY='not a tty'
+GROUPS=()
+HOME=/home/ec2-user
+HOSTNAME=ip-172-31-41-3.eu-north-1.compute.internal
+HOSTTYPE=x86_64
+IFS=$' \t\n'
+LANG=C.UTF-8
+LESSOPEN='||/usr/bin/lesspipe.sh %s'
+LOGNAME=ec2-user
+MACHTYPE=x86_64-redhat-linux-gnu
+MOTD_SHOWN=pam
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+PIPESTATUS=([0]="0")
+PPID=5364
+PS4='+ '
+PWD=/home/ec2-user
+SELINUX_LEVEL_REQUESTED=
+SELINUX_ROLE_REQUESTED=
+SELINUX_USE_CURRENT_RANGE=
+SHELL=/bin/bash
+SHELLNAME=bash
+SHELLOPTS=braceexpand:hashall:interactive-comments
+SHLVL=1
+SSH_CLIENT='13.53.104.202 37996 22'
+SSH_CONNECTION='13.53.104.202 37996 172.31.41.3 22'
+TERM=dumb
+UID=1000
+USER=ec2-user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SESSION_CLASS=user
+XDG_SESSION_ID=46
+XDG_SESSION_TYPE=tty
+_=rc
+gawklibpath_append () 
+{ 
+    [ -z "$AWKLIBPATH" ] && AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`;
+    export AWKLIBPATH="$AWKLIBPATH:$*"
+}
+gawklibpath_default () 
+{ 
+    unset AWKLIBPATH;
+    export AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`
+}
+gawklibpath_prepend () 
+{ 
+    [ -z "$AWKLIBPATH" ] && AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`;
+    export AWKLIBPATH="$*:$AWKLIBPATH"
+}
+gawkpath_append () 
+{ 
+    [ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`;
+    export AWKPATH="$AWKPATH:$*"
+}
+gawkpath_default () 
+{ 
+    unset AWKPATH;
+    export AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`
+}
+gawkpath_prepend () 
+{ 
+    [ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`;
+    export AWKPATH="$*:$AWKPATH"
+}
+[06/07/26 08:19:27] [SSH] Starting sftp client.
+[06/07/26 08:19:27] [SSH] Copying latest remoting.jar...
+Source agent hash is 7A9A77A64F02EB9F5DBCEFF9E9A349E2. Installed agent hash is 7A9A77A64F02EB9F5DBCEFF9E9A349E2
+Verified agent jar. No update is necessary.
+Expanded the channel window size to 4MB
+[06/07/26 08:19:27] [SSH] Starting agent process: cd "/home/ec2-user" && java  -jar remoting.jar -workDir /home/ec2-user -jar-cache /home/ec2-user/remoting/jarCache
+bash: line 1: java: command not found
+Agent JVM has terminated. Exit code=127
+[06/07/26 08:19:28] Launch failed - cleaning up connection
+[06/07/26 08:19:28] [SSH] Connection closed.

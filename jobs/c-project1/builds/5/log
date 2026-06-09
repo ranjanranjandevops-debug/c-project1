@@ -1,0 +1,23 @@
+Started by user [8mha:////4H2XlTDXJsanTDvm8NbPilj4iMzZOkrZRdOB2dQz3zqeAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osS8rMQ8AFXhUIvBAAAA[0mRanjan
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ranjanranjandevops-debug/c-project1.git # timeout=10
+Fetching upstream changes from https://github.com/ranjanranjandevops-debug/c-project1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.52.0'
+ > git fetch --tags --force --progress -- https://github.com/ranjanranjandevops-debug/c-project1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 57beb3f7e8bce405412ad3b53093824806044579 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 57beb3f7e8bce405412ad3b53093824806044579 # timeout=10
+Commit message: "Stop tracking compiled binary and object files"
+ > git rev-list --no-walk 57beb3f7e8bce405412ad3b53093824806044579 # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins10565495685104970419.sh
++ cd /home/ec2-user/dev1/central_repo1
+/tmp/jenkins10565495685104970419.sh: line 2: cd: /home/ec2-user/dev1/central_repo1: Not a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

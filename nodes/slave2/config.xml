@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>slave2</name>
+  <description></description>
+  <remoteFS>/home/ec2-user</remoteFS>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@3.1097.v868116049892">
+    <host>13.61.35.52</host>
+    <port>22</port>
+    <credentialsId>b945790c-e0f0-45e9-979f-66316c9aa428</credentialsId>
+    <launchTimeoutSeconds>60</launchTimeoutSeconds>
+    <maxNumRetries>10</maxNumRetries>
+    <retryWaitTime>15</retryWaitTime>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy"/>
+    <tcpNoDelay>true</tcpNoDelay>
+  </launcher>
+  <label>agent</label>
+  <nodeProperties/>
+</slave>
