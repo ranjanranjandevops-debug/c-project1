@@ -1,8 +1,8 @@
 SSHLauncher{host='13.61.35.52', port=22, credentialsId='71beb62c-ae9e-49fb-a030-7cb06c07a81d', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
-[06/07/26 08:19:27] [SSH] Opening SSH connection to 13.61.35.52:22.
-[06/07/26 08:19:27] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
-[06/07/26 08:19:27] [SSH] Authentication successful.
-[06/07/26 08:19:27] [SSH] The remote user's environment is:
+[06/07/26 08:23:00] [SSH] Opening SSH connection to 13.61.35.52:22.
+[06/07/26 08:23:00] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
+[06/07/26 08:23:00] [SSH] Authentication successful.
+[06/07/26 08:23:00] [SSH] The remote user's environment is:
 BASH=/usr/bin/bash
 BASHOPTS=checkwinsize:cmdhist:complete_fullquote:extquote:force_fignore:globasciiranges:globskipdots:hostcomplete:interactive_comments:patsub_replacement:progcomp:promptvars:sourcepath
 BASHRCSOURCED=Y
@@ -37,7 +37,7 @@ OPTIND=1
 OSTYPE=linux-gnu
 PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
 PIPESTATUS=([0]="0")
-PPID=5364
+PPID=5650
 PS4='+ '
 PWD=/home/ec2-user
 SELINUX_LEVEL_REQUESTED=
@@ -47,14 +47,14 @@ SHELL=/bin/bash
 SHELLNAME=bash
 SHELLOPTS=braceexpand:hashall:interactive-comments
 SHLVL=1
-SSH_CLIENT='13.53.104.202 37996 22'
-SSH_CONNECTION='13.53.104.202 37996 172.31.41.3 22'
+SSH_CLIENT='13.53.104.202 57544 22'
+SSH_CONNECTION='13.53.104.202 57544 172.31.41.3 22'
 TERM=dumb
 UID=1000
 USER=ec2-user
 XDG_RUNTIME_DIR=/run/user/1000
 XDG_SESSION_CLASS=user
-XDG_SESSION_ID=46
+XDG_SESSION_ID=52
 XDG_SESSION_TYPE=tty
 _=rc
 gawklibpath_append () 
@@ -87,13 +87,13 @@ gawkpath_prepend ()
     [ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`;
     export AWKPATH="$*:$AWKPATH"
 }
-[06/07/26 08:19:27] [SSH] Starting sftp client.
-[06/07/26 08:19:27] [SSH] Copying latest remoting.jar...
+[06/07/26 08:23:01] [SSH] Starting sftp client.
+[06/07/26 08:23:01] [SSH] Copying latest remoting.jar...
 Source agent hash is 7A9A77A64F02EB9F5DBCEFF9E9A349E2. Installed agent hash is 7A9A77A64F02EB9F5DBCEFF9E9A349E2
 Verified agent jar. No update is necessary.
 Expanded the channel window size to 4MB
-[06/07/26 08:19:27] [SSH] Starting agent process: cd "/home/ec2-user" && java  -jar remoting.jar -workDir /home/ec2-user -jar-cache /home/ec2-user/remoting/jarCache
+[06/07/26 08:23:01] [SSH] Starting agent process: cd "/home/ec2-user" && java  -jar remoting.jar -workDir /home/ec2-user -jar-cache /home/ec2-user/remoting/jarCache
 bash: line 1: java: command not found
 Agent JVM has terminated. Exit code=127
-[06/07/26 08:19:28] Launch failed - cleaning up connection
-[06/07/26 08:19:28] [SSH] Connection closed.
+[06/07/26 08:23:01] Launch failed - cleaning up connection
+[06/07/26 08:23:01] [SSH] Connection closed.
