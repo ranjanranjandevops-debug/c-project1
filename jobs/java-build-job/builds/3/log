@@ -1,0 +1,36 @@
+Started by user [8mha:////4H2XlTDXJsanTDvm8NbPilj4iMzZOkrZRdOB2dQz3zqeAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osS8rMQ8AFXhUIvBAAAA[0mRanjan
+Running as SYSTEM
+Building remotely on [8mha:////4OtyVV8fPL3Cw8+afqZVtdOyP+ddImbxEA8KRtD3mPJRAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 (agent) in workspace /home/ec2-user/workspace/java-build-job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/java-build-job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ranjanranjandevops-debug/c-project1.git # timeout=10
+Fetching upstream changes from https://github.com/ranjanranjandevops-debug/c-project1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.52.0'
+ > git fetch --tags --force --progress -- https://github.com/ranjanranjandevops-debug/c-project1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/Java_build^{commit} # timeout=10
+Checking out Revision 866fe0181e96a1a9770b8079fe881a9d01ea9797 (refs/remotes/origin/Java_build)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 866fe0181e96a1a9770b8079fe881a9d01ea9797 # timeout=10
+Commit message: "Create test"
+ > git rev-list --no-walk 866fe0181e96a1a9770b8079fe881a9d01ea9797 # timeout=10
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.16/apache-maven-3.9.16-bin.zip to /home/ec2-user/tools/hudson.tasks.Maven_MavenInstallation/Maven3 on slave2
+[java-build-job] $ /home/ec2-user/tools/hudson.tasks.Maven_MavenInstallation/Maven3/bin/mvn Clean package
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.122 s
+[INFO] Finished at: 2026-06-09T10:18:59Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Gjy1gmK/DPREqlOF70b5ZgvIg84btswKC2sC1eF3v2LAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ec2-user/workspace/java-build-job). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[8mha:////4Gjy1gmK/DPREqlOF70b5ZgvIg84btswKC2sC1eF3v2LAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Gjy1gmK/DPREqlOF70b5ZgvIg84btswKC2sC1eF3v2LAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Gjy1gmK/DPREqlOF70b5ZgvIg84btswKC2sC1eF3v2LAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Gjy1gmK/DPREqlOF70b5ZgvIg84btswKC2sC1eF3v2LAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Gjy1gmK/DPREqlOF70b5ZgvIg84btswKC2sC1eF3v2LAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4Gjy1gmK/DPREqlOF70b5ZgvIg84btswKC2sC1eF3v2LAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

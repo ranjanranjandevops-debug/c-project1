@@ -1,0 +1,95 @@
+Started by user [8mha:////4H2XlTDXJsanTDvm8NbPilj4iMzZOkrZRdOB2dQz3zqeAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osS8rMQ8AFXhUIvBAAAA[0mRanjan
+Running as SYSTEM
+Building remotely on [8mha:////4OtyVV8fPL3Cw8+afqZVtdOyP+ddImbxEA8KRtD3mPJRAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 (agent) in workspace /home/ec2-user/workspace/java-build-job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/java-build-job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ranjanranjandevops-debug/c-project1.git # timeout=10
+Fetching upstream changes from https://github.com/ranjanranjandevops-debug/c-project1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.52.0'
+ > git fetch --tags --force --progress -- https://github.com/ranjanranjandevops-debug/c-project1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/Java_build^{commit} # timeout=10
+Checking out Revision 866fe0181e96a1a9770b8079fe881a9d01ea9797 (refs/remotes/origin/Java_build)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 866fe0181e96a1a9770b8079fe881a9d01ea9797 # timeout=10
+Commit message: "Create test"
+ > git rev-list --no-walk 866fe0181e96a1a9770b8079fe881a9d01ea9797 # timeout=10
+[java-build-job] $ /bin/sh -xe /tmp/jenkins12875948502152413437.sh
++ echo '=== Checking Repository Structure ==='
+=== Checking Repository Structure ===
++ ls -la
+total 68
+drwxr-xr-x.  13 ec2-user ec2-user 4096 Jun  9 09:35 .
+drwxr-xr-x.   4 ec2-user ec2-user   46 Jun  9 09:35 ..
+drwxr-xr-x.   3 ec2-user ec2-user   18 Jun  9 09:35 .config
+drwxr-xr-x.   7 ec2-user ec2-user  146 Jun  9 10:26 .git
+-rw-r--r--.   1 ec2-user ec2-user    0 Jun  9 09:35 .lastStarted
+-rw-r--r--.   1 ec2-user ec2-user    4 Jun  9 09:35 .owner
+-rw-r--r--.   1 ec2-user ec2-user 3098 Jun  9 09:35 config.xml
+-rw-r--r--.   1 ec2-user ec2-user 1965 Jun  9 09:35 credentials.xml
+drwxr-xr-x.   4 ec2-user ec2-user   26 Jun  9 09:35 fingerprints
+-rw-r--r--.   1 ec2-user ec2-user  156 Jun  9 09:35 hudson.model.UpdateCenter.xml
+-rw-r--r--.   1 ec2-user ec2-user  370 Jun  9 09:35 hudson.plugins.git.GitTool.xml
+-rw-r--r--.   1 ec2-user ec2-user    7 Jun  9 09:35 jenkins.install.InstallUtil.lastExecVersion
+-rw-r--r--.   1 ec2-user ec2-user    7 Jun  9 09:35 jenkins.install.UpgradeWizard.state
+-rw-r--r--.   1 ec2-user ec2-user  182 Jun  9 09:35 jenkins.model.JenkinsLocationConfiguration.xml
+-rw-r--r--.   1 ec2-user ec2-user  171 Jun  9 09:35 jenkins.telemetry.Correlator.xml
+drwxr-xr-x.   4 ec2-user ec2-user   36 Jun  9 09:35 jobs
+drwxr-xr-x.   4 ec2-user ec2-user  149 Jun  9 09:35 logs
+-rw-r--r--.   1 ec2-user ec2-user 1037 Jun  9 09:35 nodeMonitors.xml
+drwxr-xr-x.   4 ec2-user ec2-user   34 Jun  9 09:35 nodes
+drwxr-xr-x. 106 ec2-user ec2-user 8192 Jun  9 09:35 plugins
+-rw-r--r--.   1 ec2-user ec2-user  259 Jun  9 09:35 queue.xml.bak
+-rw-r--r--.   1 ec2-user ec2-user   64 Jun  9 09:35 secret.key
+-rw-r--r--.   1 ec2-user ec2-user    0 Jun  9 09:35 secret.key.not-so-secret
+-rw-r--r--.   1 ec2-user ec2-user    1 Jun  9 09:35 test
+drwxr-xr-x.   2 ec2-user ec2-user  149 Jun  9 09:35 updates
+drwxr-xr-x.   2 ec2-user ec2-user   24 Jun  9 09:35 userContent
+drwxr-xr-x.   4 ec2-user ec2-user  165 Jun  9 09:35 users
+drwxr-xr-x.   3 ec2-user ec2-user   24 Jun  9 09:35 workspace
++ echo '=== Searching for pom.xml ==='
+=== Searching for pom.xml ===
+++ find . -name pom.xml
+++ head -n 1
+find: ‘standard output’: Broken pipe
+find: write error
++ POM_PATH=./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant/pom.xml
++ '[' -z ./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant/pom.xml ']'
++ echo 'Found pom.xml at: ./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant/pom.xml'
+Found pom.xml at: ./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant/pom.xml
+++ dirname ./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant/pom.xml
++ DIR_PATH=./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant
++ echo 'Navigating to project directory: ./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant'
+Navigating to project directory: ./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant
++ cd ./plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant
++ echo '=== Starting Maven Build ==='
+=== Starting Maven Build ===
++ /home/ec2-user/tools/hudson.tasks.Maven_MavenInstallation/Maven3/bin/mvn clean package
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/jenkins-ci/tools/maven-hpi-plugin/3.66/maven-hpi-plugin-3.66.pom
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:3.66 is missing, no dependency information available
+Downloading from central: https://repo.maven.apache.org/maven2/org/jenkins-ci/tools/maven-hpi-plugin/3.66/maven-hpi-plugin-3.66.jar
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Unresolveable build extension: Plugin org.jenkins-ci.tools:maven-hpi-plugin:3.66 or one of its dependencies could not be resolved:
+	Could not find artifact org.jenkins-ci.tools:maven-hpi-plugin:jar:3.66 in central (https://repo.maven.apache.org/maven2)
+ @ 
+[ERROR] Unknown packaging: hpi @ line 8, column 14
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.jenkins-ci.plugins:ant:520.vd082ecfb_16a_9 (/home/ec2-user/workspace/java-build-job/plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant/pom.xml) has 2 errors
+[ERROR]     Unresolveable build extension: Plugin org.jenkins-ci.tools:maven-hpi-plugin:3.66 or one of its dependencies could not be resolved:
+[ERROR]     	Could not find artifact org.jenkins-ci.tools:maven-hpi-plugin:jar:3.66 in central (https://repo.maven.apache.org/maven2)
+[ERROR]     -> [Help 2]
+[ERROR]     Unknown packaging: hpi @ line 8, column 14
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/PluginManagerException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

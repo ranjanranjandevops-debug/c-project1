@@ -1,0 +1,18 @@
+Started by upstream project "[8mha:////4HSGZekmA1C1rBfh33SNJvBofKSxYYLbVSCLu0rHICMFAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JH2QObopqQU5+ZW6ID4AdFBJgsoAAAA=[0mjava-deploy-job" build number [8mha:////4KZK65L0zTbyTS/PSRbkqGUQQzcM8LzUAyj/1Zr7sh+bAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwkfZA5uimpBTn5lbogviEA8tokyMsAAAA=[0m1
+originally caused by:
+ Started by upstream project "[8mha:////4J1X5bx/PHb2ickdycN4VpehBW9YBqSGN2cppuO8/bMEAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2QObpJpZk5KbogLgAXQ4SIyQAAAA==[0mjava-build-job" build number [8mha:////4BQR2dwrPi5NF3ao7XYfmsJ8XytRpXnQScNBlH8GQ8QxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH2QObpJpZk5KbogrqEBAFJRINnLAAAA[0m10
+ originally caused by:
+  Started by user [8mha:////4H2XlTDXJsanTDvm8NbPilj4iMzZOkrZRdOB2dQz3zqeAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osS8rMQ8AFXhUIvBAAAA[0mRanjan
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/java-test-job
+[java-test-job] $ /bin/sh -xe /tmp/jenkins17848029813870742174.sh
++ echo 'Running Endpoint Health Verification...'
+Running Endpoint Health Verification...
+++ curl -s -o /dev/null -w '%{http_code}' http://localhost:8080/sample-java-app/
++ STATUS_CODE=403
++ '[' 403 -eq 200 ']'
++ echo 'Deployment validation failed with status code: 403'
+Deployment validation failed with status code: 403
++ exit 1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

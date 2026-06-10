@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo &quot;=== Deploying Artifact to Tomcat ===&quot;
+
+# Define the absolute path to the build job&apos;s target directory
+BUILD_WAR_PATH=&quot;/home/ec2-user/workspace/java-build-job/target/sample-java-app.war&quot;
+
+# Copy the war file using the absolute path from the build job
+cp &quot;$BUILD_WAR_PATH&quot; /var/lib/tomcat/webapps/ 2&gt;/dev/null || \
+sudo cp &quot;$BUILD_WAR_PATH&quot; /usr/share/tomcat/webapps/ 2&gt;/dev/null || \
+sudo cp &quot;$BUILD_WAR_PATH&quot; /opt/tomcat/webapps/
+
+echo &quot;=== Fixing Permissions ===&quot;
+# Grant read &amp; execute permissions so Tomcat can unpack and serve the files properly
+sudo chmod -R 755 /var/lib/tomcat/webapps/sample-java-app 2&gt;/dev/null || \
+sudo chmod -R 755 /usr/share/tomcat/webapps/sample-java-app 2&gt;/dev/null || \
+sudo chmod -R 755 /opt/tomcat/webapps/sample-java-app 2&gt;/dev/null
+
+echo &quot;Deployment step completed successfully!&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>java-test-job</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
+  <buildWrappers/>
+</project>

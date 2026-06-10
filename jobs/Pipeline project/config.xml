@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1571.1580.v18e46842c125">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2291.v2934911987b_6"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2291.v2934911987b_6">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4331.v9d06ed4658ff">
+    <script>pipeline {
+    agent any
+
+    stages {
+        stage(&apos;Checkout&apos;) {
+            steps {
+                echo &apos;Step 1: Cloning source code from repository...&apos;
+                // Example: git url: &apos;https://github.com/your-username/your-repo.git&apos;, branch: &apos;main&apos;
+            }
+        }
+
+        stage(&apos;Hello&apos;) {
+            steps {
+                echo &apos;Step 2: Greeting team and validating environment...&apos;
+                echo &apos;Hello Ranjan! Pipeline initialization successful.&apos;
+            } 
+        }
+
+        stage(&apos;Build&apos;) {
+            steps {
+                echo &apos;Step 3: Compiling code and packaging artifacts...&apos;
+                echo &apos;Running build commands (e.g., mvn clean package)...&apos;
+            }
+        }
+
+        stage(&apos;Test&apos;) {
+            steps {
+                echo &apos;Step 4: Running automated unit tests...&apos;
+                echo &apos;Executing test suites (e.g., mvn test)...&apos;
+            }
+        }
+
+        stage(&apos;Deploy&apos;) {
+            steps {
+                echo &apos;Step 5: Deploying artifact to target server...&apos;
+                echo &apos;Copying war file to application server environment...&apos;
+            }
+        }
+    }
+
+    // Post-build actions execute automatically based on the final status of the pipeline
+    post {
+        always {
+            echo &apos;Cleaning up the build workspace...&apos;
+        }
+        success {
+            echo &apos;Pipeline completed successfully! Sending success alerts...&apos;
+        }
+        failure {
+            echo &apos;Pipeline failed! Sending failure notifications to the engineering team.&apos;
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,95 @@
+Started by user [8mha:////4H2XlTDXJsanTDvm8NbPilj4iMzZOkrZRdOB2dQz3zqeAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osS8rMQ8AFXhUIvBAAAA[0mRanjan
+Running as SYSTEM
+Building remotely on [8mha:////4OtyVV8fPL3Cw8+afqZVtdOyP+ddImbxEA8KRtD3mPJRAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 (agent) in workspace /home/ec2-user/workspace/java-build-job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/java-build-job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ranjanranjandevops-debug/c-project1.git # timeout=10
+Fetching upstream changes from https://github.com/ranjanranjandevops-debug/c-project1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.52.0'
+ > git fetch --tags --force --progress -- https://github.com/ranjanranjandevops-debug/c-project1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/Java_build^{commit} # timeout=10
+Checking out Revision 866fe0181e96a1a9770b8079fe881a9d01ea9797 (refs/remotes/origin/Java_build)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 866fe0181e96a1a9770b8079fe881a9d01ea9797 # timeout=10
+Commit message: "Create test"
+ > git rev-list --no-walk 866fe0181e96a1a9770b8079fe881a9d01ea9797 # timeout=10
+[java-build-job] $ /bin/sh -xe /tmp/jenkins10916669853684171032.sh
++ echo '=== Step 1: Cleaning workspace and setting up directories ==='
+=== Step 1: Cleaning workspace and setting up directories ===
++ rm -rf src target pom.xml
++ mkdir -p src/main/java/com/sample
++ mkdir -p src/main/webapp/WEB-INF
++ echo '=== Step 2: Creating sample pom.xml ==='
+=== Step 2: Creating sample pom.xml ===
++ cat
++ echo '=== Step 3: Creating sample Java code ==='
+=== Step 3: Creating sample Java code ===
++ cat
++ echo '=== Step 4: Creating sample web interface and web.xml ==='
+=== Step 4: Creating sample web interface and web.xml ===
++ cat
++ cat
++ echo '=== Step 5: Compiling and Packaging with Maven ==='
+=== Step 5: Compiling and Packaging with Maven ===
++ /home/ec2-user/tools/hudson.tasks.Maven_MavenInstallation/Maven3/bin/mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.sample:sample-java-app >---------------------
+[INFO] Building Simple Java Web App 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sample-java-app ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ sample-java-app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/java-build-job/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ sample-java-app ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ sample-java-app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/java-build-job/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ sample-java-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ sample-java-app ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- war:3.5.1:war (default-war) @ sample-java-app ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [sample-java-app] in [/home/ec2-user/workspace/java-build-job/target/sample-java-app-1.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/workspace/java-build-job/src/main/webapp]
+[INFO] Building war: /home/ec2-user/workspace/java-build-job/target/sample-java-app-1.0.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.892 s
+[INFO] Finished at: 2026-06-09T10:35:00Z
+[INFO] ------------------------------------------------------------------------
++ echo '=== Step 6: Verify built artifact ==='
+=== Step 6: Verify built artifact ===
++ ls -la target/
+total 8
+drwxr-xr-x.  7 ec2-user ec2-user  146 Jun  9 10:35 .
+drwxr-xr-x. 15 ec2-user ec2-user 4096 Jun  9 10:34 ..
+drwxr-xr-x.  3 ec2-user ec2-user   17 Jun  9 10:34 classes
+drwxr-xr-x.  3 ec2-user ec2-user   25 Jun  9 10:34 generated-sources
+drwxr-xr-x.  2 ec2-user ec2-user   28 Jun  9 10:35 maven-archiver
+drwxr-xr-x.  3 ec2-user ec2-user   35 Jun  9 10:34 maven-status
+drwxr-xr-x.  4 ec2-user ec2-user   54 Jun  9 10:35 sample-java-app-1.0
+-rw-r--r--.  1 ec2-user ec2-user 2520 Jun  9 10:35 sample-java-app-1.0.war
+Triggering a new build of [8mha:////4HSGZekmA1C1rBfh33SNJvBofKSxYYLbVSCLu0rHICMFAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JH2QObopqQU5+ZW6ID4AdFBJgsoAAAA=[0mjava-deploy-job
+Finished: SUCCESS

@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4J1X5bx/PHb2ickdycN4VpehBW9YBqSGN2cppuO8/bMEAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2QObpJpZk5KbogLgAXQ4SIyQAAAA==[0mjava-build-job" build number [8mha:////4BQR2dwrPi5NF3ao7XYfmsJ8XytRpXnQScNBlH8GQ8QxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH2QObpJpZk5KbogrqEBAFJRINnLAAAA[0m10
+originally caused by:
+ Started by user [8mha:////4H2XlTDXJsanTDvm8NbPilj4iMzZOkrZRdOB2dQz3zqeAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osS8rMQ8AFXhUIvBAAAA[0mRanjan
+Running as SYSTEM
+Building remotely on [8mha:////4OtyVV8fPL3Cw8+afqZVtdOyP+ddImbxEA8KRtD3mPJRAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 (agent) in workspace /home/ec2-user/workspace/java-deploy-job
+[java-deploy-job] $ /bin/sh -xe /tmp/jenkins16087133572292197895.sh
++ cp '/var/lib/jenkins/workspace/java-build-job/target/*.war' /home/ec2-user/deployed_apps/
+cp: cannot stat '/var/lib/jenkins/workspace/java-build-job/target/*.war': No such file or directory
++ true
+Triggering a new build of [8mha:////4HfWV6w5Ma9asLfn5LqCFlk+o6wrl5XkbDuUWDw+mHEgAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH2QObolqcUluiAeAO6MsHPIAAAA[0mjava-test-job
+Finished: SUCCESS
