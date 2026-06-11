@@ -430,5 +430,5 @@
       <string>1413.v2ff1a_5e720fa_</string>
     </entry>
   </plugins>
-  <pluginsXml>/var/lib/jenkins/my_backups/FULL-2026-06-11_08-05/installedPlugins.xml</pluginsXml>
+  <pluginsXml>/var/lib/jenkins/my_backups/FULL-2026-06-11_08-08/installedPlugins.xml</pluginsXml>
 </org.jvnet.hudson.plugins.thinbackup.backup.PluginList>
