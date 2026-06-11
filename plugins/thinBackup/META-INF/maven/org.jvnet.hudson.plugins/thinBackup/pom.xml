@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jvnet.hudson.plugins</groupId>
+  <artifactId>thinBackup</artifactId>
+  <version>2.1.4</version>
+  <packaging>hpi</packaging>
+  <name>ThinBackup</name>
+  <description>Backs up the most important global and job specific configuration files.</description>
+  <url>https://github.com/jenkinsci/thin-backup-plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <distribution>repo</distribution>
+      <comments>Copyright (C) 2011  Matthias Steinkogler, Thomas Fürer
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tofuatjava</id>
+      <name>Thomas Fuerer</name>
+      <email>tfuerer.javanet@gmail.com</email>
+      <timezone>CET</timezone>
+    </developer>
+    <developer>
+      <id>alienllama</id>
+      <name>Matthias Steinkogler</name>
+      <email>alienllama@gmail.com</email>
+      <organization>Borland (a Microfocus Company)</organization>
+      <organizationUrl>www.borland.com</organizationUrl>
+      <timezone>CET</timezone>
+    </developer>
+    <developer>
+      <id>StefanSpieker</id>
+      <name>Stefan Spieker</name>
+      <timezone>CET</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/thin-backup-plugin.git</connection>
+    <developerConnection>scm:git:https://github.com/jenkinsci/thin-backup-plugin.git</developerConnection>
+    <tag>thinBackup-2.1.4</tag>
+    <url>https://github.com/jenkinsci/thin-backup-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>ionicons-api</artifactId>
+      <version>94.vcc3065403257</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.main</groupId>
+      <artifactId>jenkins-core</artifactId>
+      <version>2.528.3</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>5.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.3.5</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.1802.v14f4709445a_b_</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

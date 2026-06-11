@@ -1,0 +1,16 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@1015.v785e5a_b_b_8b_22">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@4331.v9d06ed4658ff">
+    <parentIds>
+      <string>22</string>
+    </parentIds>
+    <id>23</id>
+    <descriptorId>org.jenkinsci.plugins.pipeline.maven.WithMavenStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@1413.v2ff1a_5e720fa_"/>
+    <wf.a.TimingAction plugin="workflow-api@1413.v2ff1a_5e720fa_">
+      <startTime>1781113770995</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

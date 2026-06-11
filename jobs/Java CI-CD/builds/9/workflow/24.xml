@@ -1,0 +1,62 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@1015.v785e5a_b_b_8b_22">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@4331.v9d06ed4658ff">
+    <parentIds>
+      <string>23</string>
+    </parentIds>
+    <id>24</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@4331.v9d06ed4658ff">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>mvn clean package</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1413.v2ff1a_5e720fa_">
+      <startTime>1781113771010</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <wf.a.ErrorAction plugin="workflow-api@1413.v2ff1a_5e720fa_">
+      <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@724.v538c2362b_dfb_">
+        <stackTrace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.interrupt(CpsFlowExecution.java:1304)</trace>
+          <trace>PluginClassLoader for workflow-job//org.jenkinsci.plugins.workflow.job.WorkflowRun$2.lambda$interrupt$0(WorkflowRun.java:406)</trace>
+          <trace>jenkins.security.ImpersonatingScheduledExecutorService.lambda$wrap$0(ImpersonatingScheduledExecutorService.java:65)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)</trace>
+          <trace>java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:1583)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <wf.a.ErrorAction_-ErrorId plugin="workflow-api@1413.v2ff1a_5e720fa_">
+            <stackTrace/>
+            <suppressedExceptions class="empty-list"/>
+            <uuid>c6f959eb-d9c4-4c5f-b66d-1b4c1e4622a0</uuid>
+          </wf.a.ErrorAction_-ErrorId>
+        </suppressedExceptions>
+        <result>
+          <name>ABORTED</name>
+          <ordinal>4</ordinal>
+          <color>ABORTED</color>
+          <completeBuild>false</completeBuild>
+        </result>
+        <causes class="java.util.Arrays$ArrayList">
+          <a class="jenkins.model.CauseOfInterruption-array">
+            <jenkins.model.CauseOfInterruption_-UserInterruption>
+              <user>Ranjan</user>
+            </jenkins.model.CauseOfInterruption_-UserInterruption>
+          </a>
+        </causes>
+        <actualInterruption>true</actualInterruption>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

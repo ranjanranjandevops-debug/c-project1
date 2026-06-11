@@ -1,0 +1,89 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1571.1580.v18e46842c125">
+  <actions/>
+  <description>Java-war_build</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4331.v9d06ed4658ff">
+    <script>pipeline {
+    agent any
+ 
+    tools {
+        maven &apos;Maven3&apos;     // Configure in Jenkins
+        jdk &apos;JDK21.0.11&apos;        // Configure in Jenkins
+    }
+ 
+    environment {
+        APP_NAME = &quot;simple-maven-project&quot;
+        DEPLOY_PATH = &quot;/opt/java-app&quot;
+    }
+ 
+    stages {
+ 
+        stage(&apos;Checkout&apos;) {
+            steps {
+                git url: &apos;https://github.com/jglick/simple-maven-project-with-tests.git&apos;,
+                    branch: &apos;master&apos;
+            }
+        }
+ 
+        stage(&apos;Build&apos;) {
+            steps {
+                echo &quot;Building the project...&quot;
+                sh &apos;mvn clean compile&apos;
+            }
+        }
+ 
+        stage(&apos;Test&apos;) {
+            steps {
+                echo &quot;Running tests...&quot;
+                sh &apos;mvn test || true&apos;
+            }
+        }
+ 
+        stage(&apos;Package&apos;) {
+            steps {
+                echo &quot;Packaging application...&quot;
+                sh &apos;mvn package -DskipTests&apos;
+            }
+        }
+ 
+        stage(&apos;Archive Artifacts&apos;) {
+            steps {
+                archiveArtifacts artifacts: &apos;target/*.jar&apos;, fingerprint: true
+            }
+        }
+ 
+        stage(&apos;Deploy&apos;) {
+            steps {
+                echo &quot;Deploying application...&quot;
+ 
+                sh &apos;&apos;&apos;
+                mkdir -p $DEPLOY_PATH
+ 
+                cp target/*.jar $DEPLOY_PATH/
+ 
+                # Kill old process (if running)
+                pkill -f $APP_NAME || true
+ 
+                # Run new app
+                nohup java -jar $DEPLOY_PATH/*.jar &gt; app.log 2&gt;&amp;1 &amp;
+                &apos;&apos;&apos;
+            }
+        }
+    }
+ 
+    post {
+        success {
+            echo &apos;✅ CI/CD Pipeline completed successfully!&apos;
+        }
+        failure {
+            echo &apos;❌ Pipeline failed. Check logs.&apos;
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

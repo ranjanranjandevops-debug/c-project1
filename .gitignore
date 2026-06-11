@@ -1,0 +1,18 @@
+# Exclude the heavy build workspaces
+workspace/
+**/workspace/
+
+# Exclude runtime logs, caches, and system binaries
+*.log
+caches/
+plugins/*.bak
+fingerprints/
+war/
+secret.key
+secrets/
+identity.key.enc
+
+# Include core config files and job definitions
+!*.xml
+!jobs/
+!plugins/
