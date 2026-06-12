@@ -1,18 +1,13 @@
-Started at Wed Jun 10 02:29:42 UTC 2026
+Started at Fri Jun 12 06:04:59 UTC 2026
 Checking c-project1
 Deleting /var/lib/jenkins/workspace/c-project1 on Jenkins
-Deleting /home/ec2-user/jekins/workspace/c-project1 on slave1
-Checking java-build-job
-Deleting /var/lib/jenkins/workspace/java-build-job on Jenkins
-Deleting /home/ec2-user/jekins/workspace/java-build-job on slave1
-Checking java-deploy-job
-Deleting /var/lib/jenkins/workspace/java-deploy-job on Jenkins
-Deleting /home/ec2-user/jekins/workspace/java-deploy-job on slave1
-Checking java-test-job
-Deleting /home/ec2-user/jekins/workspace/java-test-job on slave1
-Deleting /home/ec2-user/workspace/java-test-job on slave2
+Checking Java CI-CD
+Deleting /var/lib/jenkins/workspace/Java CI-CD on Jenkins
+Deleting /home/ec2-user/workspace/Java CI-CD on slave2
+Checking java-jdk
+Deleting /var/lib/jenkins/workspace/java-jdk on Jenkins
+Deleting /home/ec2-user/workspace/java-jdk on slave2
 Checking Pipeline project
 Deleting /var/lib/jenkins/workspace/Pipeline project on Jenkins
-Deleting /home/ec2-user/jekins/workspace/Pipeline project on slave1
 Deleting /home/ec2-user/workspace/Pipeline project on slave2
-Finished at Wed Jun 10 02:29:42 UTC 2026. 62ms
+Finished at Fri Jun 12 06:04:59 UTC 2026. 256ms

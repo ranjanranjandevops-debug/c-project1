@@ -1,0 +1,209 @@
+Started by user [8mha:////4H2XlTDXJsanTDvm8NbPilj4iMzZOkrZRdOB2dQz3zqeAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9osS8rMQ8AFXhUIvBAAAA[0mRanjan
+[8mha:////4NnXNbgaqYDX+DkBsN1zm2p7bpP0TO0Eb7qBQUReGOg7AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FIpLuTAHdnMcK5niq/iHN6VRcv9LOTcLcjN/a0crQIeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4OtyVV8fPL3Cw8+afqZVtdOyP+ddImbxEA8KRtD3mPJRAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 in /home/ec2-user/workspace/Java CI-CD
+[8mha:////4M7nMGzZnLclJTLUIV4L1OXozr26yWI40HMyCGliJcA9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Ftp06+AOVNRTPtZOXV0CYXA9sk4sU/nUB/JZ/l2gsTTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4DOGjU4MjY0W9NcJoBKWVBS6s6H2pMzwup8hNuklLBtfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4Dit4SarSs5XZDtHyfGLqE7HHN/BhgIINvlUnsLT8HFXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] tool
+[8mha:////4ADBs4N8j3YYUWK7QSugG+16f1LNVeeL1pKBe2ZiTdPYAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4JPm9vQRvG9ahu1KJvvh8YwziCGTdpqjM/NCPy8ypwXcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4IANKsX3If+yeKAKHWtoiDL7BsU5Ym1jeMx0YfOAa9RNAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4FhNhymr/I2Xf03aWlvQdmCXOoKSfVLjluJhIxjKTH+EAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] withEnv
+[8mha:////4EJP/DV/Ph6CDXgxTe+LahXI8Z6fdI0yqRkls0hcXkhyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
+[8mha:////4GaXWuX8OFnd4JEzPySoOdFBOdUbYRk0p4jr749HP9ibAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] stage
+[8mha:////4GrRlokQjsgk6n02zHzEETvjoHa/Rzl/fGB+UB9N6ieTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] { (Build)
+[8mha:////4PoaRm+OvLGp9g3JehnxL6r+nNoC6EJANoOkRA/Id4PQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] tool
+[8mha:////4LSPMwWJRQOnt9LZ9XGkQc8HoyGltku89TeNvD05M9X/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEG6D8DvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GiioZjirLQR0Io6fXWdEYTbS3Uv0tA9deQSFyHkfAgXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSEgMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOeMTC6wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4OUX78k4LyZyfUtvORO3AJ1IPEoCCrhIQDWjpZBI7ACmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4EkxMfgyjNWSTKcl17uoqTc1BQZwbIZhxc4HsBbIjcibAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] echo
+Pulling code from Git repository...
+[8mha:////4GsQ2kVqOpAn+IMMeUV7GIzI1Fp5F1Hb6wL3OpQ2NdcaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/Java CI-CD/.git # timeout=10
+Checking out Revision 9a5e9832814aa17fa7e514e5890fc6cf913d9a77 (refs/remotes/origin/master)
+Commit message: "Creating a main class so there is something for `javadoc:javadoc` to do"
+ > git config remote.origin.url https://github.com/jglick/simple-maven-project-with-tests.git # timeout=10
+Fetching upstream changes from https://github.com/jglick/simple-maven-project-with-tests.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.52.0'
+ > git fetch --tags --force --progress -- https://github.com/jglick/simple-maven-project-with-tests.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9a5e9832814aa17fa7e514e5890fc6cf913d9a77 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 9a5e9832814aa17fa7e514e5890fc6cf913d9a77 # timeout=10
+ > git rev-list --no-walk 9a5e9832814aa17fa7e514e5890fc6cf913d9a77 # timeout=10
+[8mha:////4PzELvYlmY27UC6ZQ7aMMadPXAAfgPYMGJbGo6OO5un0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wHsqpiJvgAAAA==[0m[Pipeline] echo
+Building and packaging...
+[8mha:////4DaPAOwn8UjR+p1WCnf06BTW6hjFBjIor6c9prLPz2NNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdEJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQF3KA/RwgAAAA==[0m[Pipeline] withMaven
+$ /home/ec2-user/tools/hudson.tasks.Maven_MavenInstallation/Maven3/bin/mvn --version
+[8mha:////4Nh1c++42lcevAVbPTR0rFwGAf1F3zhOCI+PqTaYOUB+AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4J0ci7KA4/lhK7T+q5r222vbpibBwGGEjE5jfpdyhu4/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ mvn clean package -DskipTests
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/home/ec2-user/workspace/Java CI-CD@tmp/withMaven84da1fc3/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/home/ec2-user/workspace/Java CI-CD@tmp/withMaven84da1fc3" 
+[INFO] [jenkins-event-spy] Generate /home/ec2-user/workspace/Java CI-CD@tmp/withMaven84da1fc3/maven-spy-20260611-100142-8992061032292595654862.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< test:simple-maven-project-with-tests >----------------
+[INFO] Building simple-maven-project-with-tests 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ simple-maven-project-with-tests ---
+[INFO] Deleting /home/ec2-user/workspace/Java CI-CD/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ simple-maven-project-with-tests ---
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/Java CI-CD/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ simple-maven-project-with-tests ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/classes
+[8mha:////4DBfrufatXLjHNSneiA0WS/fioK147UankiOlzGw7+CxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] bootstrap class path not set in conjunction with -source 8
+[8mha:////4DBfrufatXLjHNSneiA0WS/fioK147UankiOlzGw7+CxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] source value 8 is obsolete and will be removed in a future release
+[8mha:////4DBfrufatXLjHNSneiA0WS/fioK147UankiOlzGw7+CxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] target value 8 is obsolete and will be removed in a future release
+[8mha:////4DBfrufatXLjHNSneiA0WS/fioK147UankiOlzGw7+CxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ simple-maven-project-with-tests ---
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/Java CI-CD/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simple-maven-project-with-tests ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 3 source files with javac [debug target 1.8] to target/test-classes
+[8mha:////4DBfrufatXLjHNSneiA0WS/fioK147UankiOlzGw7+CxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] bootstrap class path not set in conjunction with -source 8
+[8mha:////4DBfrufatXLjHNSneiA0WS/fioK147UankiOlzGw7+CxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] source value 8 is obsolete and will be removed in a future release
+[8mha:////4DBfrufatXLjHNSneiA0WS/fioK147UankiOlzGw7+CxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] target value 8 is obsolete and will be removed in a future release
+[8mha:////4DBfrufatXLjHNSneiA0WS/fioK147UankiOlzGw7+CxAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] /home/ec2-user/workspace/Java CI-CD/src/test/java/test/Base.java: /home/ec2-user/workspace/Java CI-CD/src/test/java/test/Base.java uses or overrides a deprecated API.
+[INFO] /home/ec2-user/workspace/Java CI-CD/src/test/java/test/Base.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:2.18.1:test (default-test) @ simple-maven-project-with-tests ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ simple-maven-project-with-tests ---
+[INFO] Building jar: /home/ec2-user/workspace/Java CI-CD/target/simple-maven-project-with-tests-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.718 s
+[INFO] Finished at: 2026-06-11T10:01:45Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /home/ec2-user/workspace/Java CI-CD@tmp/withMaven84da1fc3/maven-spy-20260611-100142-8992061032292595654862.log
+[8mha:////4FJ+ysn9ChTd6j2jNk+PkGp2s004kHwTSTGyOpkgg/G/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[withMaven] JacocoPublisher is no longer implicitly used with `withMaven` step.
+[withMaven] Jacoco plugin has been deprecated and should not be used anymore.
+[withMaven] CoveragePublisher will be used instead.
+
+[withMaven] artifactsPublisher - Archive artifact pom.xml under test/simple-maven-project-with-tests/1.0-SNAPSHOT/simple-maven-project-with-tests-1.0-SNAPSHOT.pom
+[withMaven] artifactsPublisher - Archive artifact target/simple-maven-project-with-tests-1.0-SNAPSHOT.jar under test/simple-maven-project-with-tests/1.0-SNAPSHOT/simple-maven-project-with-tests-1.0-SNAPSHOT.jar
+[withMaven] junitPublisher - Archive test results for Maven artifact test:simple-maven-project-with-tests:jar:1.0-SNAPSHOT generated by maven-surefire-plugin:test (default-test): target/surefire-reports/*.xml
+[withMaven] junitPublisher - Jenkins [8mha:////4CIDscxMsbXddmBGCyNC0Xok6VNIoNlVmefPzkIqXeRwAAAAqR+LCAAAAAAAAP9djLsNwjAUAB9BMAAVQowAdkcRlIoGpIiGCaxg+RPzbNnPKKzBGtAwBOOwA0TpuOauuucHJinCUudz8sgaj8k7yfa3IKMz2B49yU31eFX38C6gOMDUSVSkaxjn6AhmtRVXwZ1AxU8UDaptF2Hxt9sN7mcwMCoAuvCLOcFKE4VUch5cVgYTsxLb3sZzm9HQWhCJRl8kUvoC5Q3UlLEAAAA=[0mJUnit Attachments Plugin not found, can't publish test attachments.
+[withMaven] junitPublisher - Jenkins [8mha:////4GlhpBDZU50D5VpPrE3rGE8xtk2yAIuUOQR4zl/bVFE2AAAAqh+LCAAAAAAAAP9djLENwjAQAJ8gGIASITGB444ClIoGpIiGCSxibCevt2V/ULIGa0DDEIzDDhCl45q76p4fmKUIK9tWyVN+8ZQ86vzQBx3RUXPyrDfF41XcwzuD7Ahz1GTYljBtIzIsylrdlERFRp45OjK7LsLyb7cfPcxgZJIBdOEXawZhmUPaShmwNY5SXmtqBjsvr6iaXrBOLKyiCnX8Aju+i4CyAAAA[0mJUnit Flaky Test Handler Plugin not found, can't publish JUnit flaky tests reports.
+Recording test results
+None of the test reports contained any result
+[Checks API] No suitable checks publisher found.
+[withMaven] Publishers: Pipeline Graph Publisher: 7 ms, Generated Artifacts Publisher: 167 ms, Junit Publisher: 367 ms
+[8mha:////4B0lCgcNKBQi4agPt67Ehay+eDyyplfgdEDdSNMYmnLFAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // withMaven
+[8mha:////4C0y9hc2zjffZu7I5cUYSb9jZY2S4QWaJ+GJuzGSd7GXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+uBdw0vgAAAA==[0m[Pipeline] }
+[8mha:////4Jh8Yl1xKpjIowifokNyoL2ZjbnLUUX4skc/x62p4+xlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/qqjVVvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4IPzHwEbr3spEk6erIUp8PYgQw/djg0f3HZFu8GSkf1TAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/1KGAHvgAAAA==[0m[Pipeline] }
+[8mha:////4GMslZi7nJhL1Pr8qhFSsMzfIMAVRcb7+F6Rp1zU9fLxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSomo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKz3uQ71ByrnfBi+AAAA[0m[Pipeline] // stage
+[8mha:////4CAaBlUxVwHF3FaJvWDi9iF7l0UZJIETKnOCjP5di/quAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUhRExdY26cILQhJA0+r8kKenEibgadyBQiQkPlm3Jes8XVMHDkbxmVuFgMPSGjW7SObFEfrg4SszSmfWEgZxinUodSdUutaOoYFFRworDWmHvKBjUETbciruonUBdn6LP24FDaeQNHlDwTI7Cx2+ZPWyvkwyEP85fAMxjhLLZZds3n2f1BukJQxPCAAAA[0m[Pipeline] stage
+[8mha:////4K6XOJ2Huyzg7PT76hzJEShR17uIivsJ/jCo4yDx2kTJAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Test)
+[8mha:////4FYWafQozwPWAlSACh3bTkJ8sFvd/0chRrT/5/Fn2G4BAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] tool
+[8mha:////4H0ZJXvXjXuag7v+mzShtvyO6QZFw/NmjhsgYUj3z8miAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Mz85kMJgI54gt3qHpXfSLsZol/mDwrIhPUNzUUgs8QMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD2DV6WTCAAAA[0m[Pipeline] withEnv
+[8mha:////4MupBOy+LhemLgbDt6c1eI4KM6r2meptriEoHLHWkIvQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4CqDNityK7KsY3k8khOGojwLUvYftKe60yXWWrMbvTdkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] echo
+Running unit tests...
+[8mha:////4C8RDS7slzDh4fphgLhRCwecAscmthwnjHedrV4KGENOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QEJIiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gM8ta5owgAAAA==[0m[Pipeline] withMaven
+$ /home/ec2-user/tools/hudson.tasks.Maven_MavenInstallation/Maven3/bin/mvn --version
+[8mha:////4LlIoPx0t9/Dv0AURGBqobbtQLeywdrJ6LCLFtzuEJUVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] {
+[8mha:////4CrsOelrk65A4RolOF5fzjNV8OWp/ccx7QsvuW7me7KrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] sh
+No test report files were found. Configuration error?
++ mvn test -Dmaven.test.failure.ignore=true
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/home/ec2-user/workspace/Java CI-CD@tmp/withMavena7406c90/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/home/ec2-user/workspace/Java CI-CD@tmp/withMavena7406c90" 
+[INFO] [jenkins-event-spy] Generate /home/ec2-user/workspace/Java CI-CD@tmp/withMavena7406c90/maven-spy-20260611-100149-11118338945728817737775.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< test:simple-maven-project-with-tests >----------------
+[INFO] Building simple-maven-project-with-tests 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ simple-maven-project-with-tests ---
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/Java CI-CD/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ simple-maven-project-with-tests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ simple-maven-project-with-tests ---
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/Java CI-CD/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simple-maven-project-with-tests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.18.1:test (default-test) @ simple-maven-project-with-tests ---
+[INFO] Surefire report directory: /home/ec2-user/workspace/Java CI-CD/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/home/ec2-user/workspace/Java CI-CD@tmp/withMavena7406c90/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/home/ec2-user/workspace/Java CI-CD@tmp/withMavena7406c90" 
+Running test.OtherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in test.OtherTest
+Running test.SomeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.005 sec - in test.SomeTest
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.795 s
+[INFO] Finished at: 2026-06-11T10:01:51Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /home/ec2-user/workspace/Java CI-CD@tmp/withMavena7406c90/maven-spy-20260611-100149-11118338945728817737775.log
+[8mha:////4E92R5IqLDHmge1G6Ev16USeACraJttaae9RGekcspSUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+dgWTEvgAAAA==[0m[Pipeline] }
+[withMaven] JacocoPublisher is no longer implicitly used with `withMaven` step.
+[withMaven] Jacoco plugin has been deprecated and should not be used anymore.
+[withMaven] CoveragePublisher will be used instead.
+
+[withMaven] artifactsPublisher - Archive artifact pom.xml under test/simple-maven-project-with-tests/1.0-SNAPSHOT/simple-maven-project-with-tests-1.0-SNAPSHOT.pom
+[withMaven] junitPublisher - Archive test results for Maven artifact test:simple-maven-project-with-tests:jar:1.0-SNAPSHOT generated by maven-surefire-plugin:test (default-test): target/surefire-reports/*.xml
+[withMaven] junitPublisher - Jenkins [8mha:////4CIDscxMsbXddmBGCyNC0Xok6VNIoNlVmefPzkIqXeRwAAAAqR+LCAAAAAAAAP9djLsNwjAUAB9BMAAVQowAdkcRlIoGpIiGCaxg+RPzbNnPKKzBGtAwBOOwA0TpuOauuucHJinCUudz8sgaj8k7yfa3IKMz2B49yU31eFX38C6gOMDUSVSkaxjn6AhmtRVXwZ1AxU8UDaptF2Hxt9sN7mcwMCoAuvCLOcFKE4VUch5cVgYTsxLb3sZzm9HQWhCJRl8kUvoC5Q3UlLEAAAA=[0mJUnit Attachments Plugin not found, can't publish test attachments.
+[withMaven] junitPublisher - Jenkins [8mha:////4GlhpBDZU50D5VpPrE3rGE8xtk2yAIuUOQR4zl/bVFE2AAAAqh+LCAAAAAAAAP9djLENwjAQAJ8gGIASITGB444ClIoGpIiGCSxibCevt2V/ULIGa0DDEIzDDhCl45q76p4fmKUIK9tWyVN+8ZQ86vzQBx3RUXPyrDfF41XcwzuD7Ahz1GTYljBtIzIsylrdlERFRp45OjK7LsLyb7cfPcxgZJIBdOEXawZhmUPaShmwNY5SXmtqBjsvr6iaXrBOLKyiCnX8Aju+i4CyAAAA[0mJUnit Flaky Test Handler Plugin not found, can't publish JUnit flaky tests reports.
+Recording test results
+[Checks API] No suitable checks publisher found.
+[withMaven] Publishers: Generated Artifacts Publisher: 17 ms, Junit Publisher: 236 ms
+[8mha:////4P3UoEMWTER/f0yvCdiEV+qIonP8qher/gvPSdTIW5iAAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApcP3Nb4AAAA=[0m[Pipeline] // withMaven
+[8mha:////4AyC3/j8DIpWNrNKyu+DLIx9tBCJQfaSlqC/RIlZr40lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBNEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEHPRMZvgAAAA==[0m[Pipeline] }
+[8mha:////4ORiCsshNAzgwO17ly1l3MgKBpbQ/l7qgNkgzo+qhTzVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPgVcH52+AAAA[0m[Pipeline] // withEnv
+[8mha:////4CtHzNPoYXGUxRqr75lxivtRBVrtu1oly+bwtqvMhlKOAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIj8alQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8DGifIvgAAAA==[0m[Pipeline] }
+[8mha:////4PHcC5Xt3KaF2PRQWiOMg66wsRwW6rBH4QflyF/t9KbNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8XObrXvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EdYPmQrvhTL21rqsPyuKsGQJkTEUz5pO1woMPf5/MqaAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm961L0AwgAAAA==[0m[Pipeline] stage
+[8mha:////4Eq9bDa7DIzUHlfPo9GqNJOnn/Nj+MfXuwAUMkR1TIv9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] { (Deploy)
+[8mha:////4OlU1UAza8ImKcryIEEeRFINlnMaKvPoKilElyu1jMyFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] tool
+[8mha:////4P1EgvbiPmox6BbZ9kJbiS7IsNe9CunVU58mPG0mw7v8AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wATIMs3b4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4Ou0EZiEy1DUhfbOi+R2yzfS9UehpSIrUsJ+WNlNHc4RAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSBAVBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKU23223ebzrN5HE58KwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4PShbM0TGMZ8QeSZaId5e1fPduos/T50JV4jMB0PiAZ+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] {
+[8mha:////4Amb2o2lakB6Lx+k+/i46277H7oIfQ1cw9tQM7hCYLxYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN1+P256+AAAA[0m[Pipeline] echo
+Deploying application...
+[8mha:////4HIfcnWvlmBfbnzw6le+CMsOikbu5EouiVZEViT1eV4oAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5gZmtG+AAAA[0m[Pipeline] echo
+SUCCESS: Artifact target/simple-maven-project-with-tests-1.0-SNAPSHOT.jar has been successfully deployed!
+[8mha:////4NL6fS4om6fwRArIPlKqJlX2qkQMNPPaGIdlmLJenfxFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaVCVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7NzG2Cji+AAAA[0m[Pipeline] }
+[8mha:////4AfU1y7BF+/49N3dms2rp4EOovNDCUdVKhLj3avah64BAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNyWVlye+AAAA[0m[Pipeline] // withEnv
+[8mha:////4BuAeKQadhC/CMZrpygCytdFASJEwOQPOQcs6XiEDjZ/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9lzwyMvgAAAA==[0m[Pipeline] }
+[8mha:////4FCQva3+pyWye0oOYMhl2wN+HJmkSaJZWK+85xzFSJHdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8hYOXtvgAAAA==[0m[Pipeline] // stage
+[8mha:////4HzVnGk9WajXHmvDORsWC9to3aSvNke53mwVvwU0Wey0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i13X0ATrOkK74AAAA=[0m[Pipeline] }
+[8mha:////4LaKuJFKdp2JScSwvgvwoowP5CDr1eRVAEOtDmufBbfyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhDQ2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP6GpSqS+AAAA[0m[Pipeline] // withEnv
+[8mha:////4CIS9EiVmmZSptrMmB6MKsYhyGKAHgIXw7o3a9ldrfwmAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AI0yIPK9AAAA[0m[Pipeline] }
+[8mha:////4D6fB/eDdU8yrYtzPFfxPr6AJDNNsvJq5aLb+hNQbfjSAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AP7d5Cu9AAAA[0m[Pipeline] // node
+[8mha:////4PgvGYklXiiR6K1WnYTRG9PBbl9JrJUzLh0XxGaTj/xSAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+ANjEg2G9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
